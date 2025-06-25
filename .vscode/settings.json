@@ -1,6 +1,22 @@
 {
-    "csharp.semanticHighlighting.enabled": true,
-    "dotnet.automaticallyCreateSolutionInWorkspace": false,
-    "omnisharp.enableEditorConfigSupport": true,
-    "omnisharp.enableRoslynAnalyzers": true
+  "[powershell]": {
+    "files.trimTrailingWhitespace": true
+  },
+  "csharp.semanticHighlighting.enabled": true,
+  "dotnet.automaticallyCreateSolutionInWorkspace": false,
+  "markdownlint.config": {
+    "MD004": false,
+    "MD024": false,
+    "MD033": false,
+    "MD034": false,
+    "MD038": false,
+    "MD042": false
+  },
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "powershell.codeFormatting.preset": "OTBS",
+  "powershell.codeFormatting.whitespaceAfterSeparator": true,
+  "powershell.codeFormatting.whitespaceAroundOperator": true,
+  "powershell.codeFormatting.whitespaceBeforeOpenBrace": true,
+  "powershell.codeFormatting.whitespaceBeforeOpenParen": true
 }
